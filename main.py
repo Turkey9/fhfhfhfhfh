@@ -12,9 +12,9 @@ logging.basicConfig(
 StartTime = time.time()
 app = Client(
     "Anonymous",
-    api_id=config.API_ID,
-    api_hash=config.API_HASH,
-    bot_token=config.BOT_TOKEN,
+    api_id=config.18189325,
+    api_hash=config.7cb3b3ea70ba49f0721a511013eefe53,
+    bot_token=config.6048858444:AAFNQyUMKCdMEsJvaGXoaZAJ7ObrGpr51_E,
     in_memory=True,
     plugins=dict(root="StringGenBot"),
 )
